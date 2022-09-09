@@ -1,0 +1,54 @@
+body{
+  background-color: #ACA1C5;
+}
+.Logo{
+  width: 333px;
+  height: 22px;
+  background-color: red;
+}
+.NavBar{
+  display:flex;
+  align-items: center;
+  justify-content:center ;
+ justify-content: space-between;
+ margin: 0 auto;
+  width: 1211px;
+  height: 76px;
+  
+}
+.NavBar ul{
+  display: flex;
+  text-decoration: none;
+  width: 351px;
+  height: 40PX;
+  justify-content: space-around;
+  align-items: center;
+}
+.NavBar li{
+  color: azure;
+  list-style: none;
+}
+#joinusbtn{
+  color: azure;
+  background-color: #f3c26086;
+  border-radius: 50px 0px 50px 0px;
+  border: none;
+  
+}
+.promises{
+  width: 861px;
+  height: 449.47px;
+  margin-left: 20px;
+}
+.promises h1 {
+color: azure;
+font-size: 86px;
+}
+.promises p{
+  color: azure;
+  font-size: 24px;
+  width: 830px;
+}
+.herosection{
+  display: flex;
+}
