@@ -1,5 +1,8 @@
 body{
   background-color: #ACA1C5;
+  height: 200px;
+  
+
 }
 .Logo{
   width: 333px;
@@ -14,7 +17,6 @@ body{
  margin: 0 auto;
   width: 1211px;
   height: 76px;
-  
 }
 .NavBar ul{
   display: flex;
@@ -30,15 +32,26 @@ body{
 }
 #joinusbtn{
   color: azure;
-  background-color: #f3c26086;
   border-radius: 50px 0px 50px 0px;
   border: none;
+  width: 132px;
+  height:44px;
   
 }
+.fisrtpart{
+  width: 800px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .promises{
-  width: 861px;
+  width: 700px;
   height: 449.47px;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 0px;
+  
 }
 .promises h1 {
 color: azure;
@@ -49,6 +62,107 @@ font-size: 86px;
   font-size: 24px;
   width: 830px;
 }
-.herosection{
-  display: flex;
+
+.herosection img{
+  margin-right: 100px;
+  
 }
+#signinbtn{
+  color: azure;
+  background-color: #D9D9D9;
+  border-radius: 50px 50px 50px 50px;
+  width: 132px;
+  height:44px;
+  border: none; 
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+.JOInu1{
+  background-color: #5cc44c71;
+}
+.JOInu2{
+  background-color: #d2a140a0;
+}
+.fisrtpart{
+  display: flex;
+ 
+  width :auto;
+}
+.featured{
+  
+  margin-top: 80px;
+}
+.brands{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100px
+}
+.featured p{
+  color: azure;
+  font-size: 24px;
+  margin-left: 30px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:64px;
+  position: relative;
+  bottom: 0;
+  height: 220px;
+  
+  bottom: 0;
+  left:0;
+  right: 0;
+  
+  background-color:#D9D9D9;
+  margin-top:100px;
+
+}
+.socialmedia{
+  display: flex;
+  background-color: azure;
+  width:150px ;
+}
+.cards{
+ background-color: #D9D9D9;
+ display: flex;
+ 
+ justify-content: space-around;
+}
+.card{
+  background-color: black;
+}
+.login{
+  background-color: rgb(205, 170, 188);
+  width: 400px;
+  height: 500px;
+  margin: 60px auto;
+  border-radius: 30px; 
+}
+.signup{
+  background-color: rgb(205, 170, 188);
+  width: 500px;
+  height: 500px;
+  margin: 60px auto;
+  border-radius: 30px;
+  
+}
+#herosectionphoto{
+
+  margin-left:30px ;
+}
+ .form{
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+

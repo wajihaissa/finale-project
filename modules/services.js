@@ -17,7 +17,7 @@ const serviceSchema= new schema({
         type:String,
         required:true
     },
-    log:{
+    logo:{
         type:String,
         required:true
     }
