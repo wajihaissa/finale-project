@@ -1,8 +1,11 @@
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
 body{
   background-color: #ACA1C5;
   height: 200px;
-  
-
+  box-sizing: inherit;
 }
 .Logo{
   width: 333px;
@@ -110,6 +113,8 @@ font-size: 86px;
   height:64px;
   position: relative;
   bottom: 0;
+  right: 0;
+  left: 0;
   height: 220px;
   
   bottom: 0;
@@ -122,27 +127,42 @@ font-size: 86px;
 }
 .socialmedia{
   display: flex;
-  background-color: azure;
-  width:150px ;
 }
 .cards{
- background-color: #D9D9D9;
- display: flex;
  
+ margin: 30px auto;
+ display: flex;
+ flex-wrap: wrap;
+ width: 900px;
+ gap: 20px;
+ height: auto;
  justify-content: space-around;
+ justify-content: center;
 }
 .card{
-  background-color: black;
+  display: flex;
+  width: 230px;
+  height: 300px;
+  border-radius: 23px;
+  align-items: column;
+}
+.card button{
+  margin-top:auto;
+  align-self: flex-start;
+  margin-left: 50px;
+}
+.card h1{
+  color: #5cc44c71; ;
 }
 .login{
-  background-color: rgb(205, 170, 188);
+  background-color: rgba(205, 170, 188, 0);
   width: 400px;
   height: 500px;
   margin: 60px auto;
   border-radius: 30px; 
 }
 .signup{
-  background-color: rgb(205, 170, 188);
+  background-color: rgba(205, 170, 188, 0.053);
   width: 500px;
   height: 500px;
   margin: 60px auto;
@@ -150,12 +170,41 @@ font-size: 86px;
   
 }
 #herosectionphoto{
-
   margin-left:30px ;
 }
  .form{
   margin: 0 auto;
 }
+select{
+  border-radius: 5px;
+  background-color: #d2a140a0;
+  
+}
+.header2{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: inherit;
+}
+.delete{
+  background-color: rgba(250, 57, 57, 0.822);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  border-width: 0;
+  color: azure; 
+}
+.deletebtn{
+ width: 230px; 
+ 
+ display: flex;
+ justify-content: flex-end;
+
+}
+
+
+
 
 
 

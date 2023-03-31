@@ -9,9 +9,9 @@ export const Footer = () => {
     <div className='footer'>
         <img src={brand5} width="229px"  />
           <div className='socialmedia'>
-            <img src={brand6}/>
-            <img src={brand7} />
-            <img src={brand8} />
+            <a href='https://www.facebook.com/waj.ih.581525'><img src={brand6}/></a>
+            <a href='https://github.com/wajihaissa'><img  src={brand7} /></a>
+            <a href='https://www.instagram.com/dracnot_here/'><img src={brand8} /></a>
           </div>
     </div>
   )

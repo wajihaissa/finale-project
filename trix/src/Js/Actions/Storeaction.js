@@ -23,7 +23,7 @@ import {
 
   export const addservice = (newservice) => async (dispatch) => {
     try {
-      let result = axios.post("/service/add", newservice);
+      let result = axios.post("/service/addservice", newservice);
       dispatch({ type: ADD_SERVICE, payload: "service added" });
       dispatch(getservice());
     } catch (error) {
@@ -32,10 +32,10 @@ import {
     }
   };
   
-  export const deleteservice = (id) => async (dispatch) => {
+  export const deleteservice = ({id}) => async (dispatch) => {
     try {
       let result = axios.delete(`/service/${id}`);
-      dispatch({ type: DELETE_SERVICE, payload: "service deleted" });
+      dispatch({ type: DELETE_SERVICE});
       dispatch(getservice());
     } catch (error) {
       dispatch({ type: GET_SERVICE_FAIL, payload: error.data });

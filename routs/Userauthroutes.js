@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const {loginrules,registerrules,validation}=require("../middleware/validtaor");
 const { findOneAndDelete } = require("../modules/services");
 const saltRounds = 10;
-//sign in
+//register
 UserRoutes.post("/register",registerrules(),validation, async (req, res) => {
   const { firstname, lastname, email, password } = req.body;
   try {

@@ -1,6 +1,5 @@
 export const GET_SERVICE = "GET SERVICE";
 export const GET_SERVICE_SUCCESS = "GET_SERVICE_SUCCESS";
 export const GET_SERVICE_FAIL = "GET_SERVICE_FAIL";
-
 export const ADD_SERVICE = "ADD SERVICE";
 export const DELETE_SERVICE = "DELETE SERVICE";
